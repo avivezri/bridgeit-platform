@@ -31,3 +31,12 @@
 - Lazy load images.
 - Never fetch unnecessary data.
 - Keep pages fast.
+
+## Product Principles
+
+Every new feature must answer two questions:
+
+- Does it make BridgeIt simpler?
+- Does it increase trust?
+
+If the answer is "no", rethink the feature.
