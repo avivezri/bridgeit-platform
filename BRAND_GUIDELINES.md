@@ -90,3 +90,11 @@ Does it increase trust?
 If not...
 
 Don't build it.
+
+## Core Values
+
+- Simple — BridgeIt should always feel easy to understand and use.
+- Safe — users should feel protected before, during, and after every project.
+- Trusted — every interaction should increase confidence between both sides.
+- Premium — the product should feel clean, modern, and professional.
+- Human — BridgeIt should feel helpful, clear, and approachable.

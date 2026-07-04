@@ -1,20 +1,32 @@
+import Container from "@/components/ui/Container";
 import Logo from "@/components/ui/Logo";
 
 export default function Navbar() {
   return (
-    <nav className="fixed left-0 top-0 z-50 flex w-full items-center justify-between border-b border-slate-100 bg-white/80 px-8 py-5 backdrop-blur">
-      <Logo />
+    <header className="fixed top-0 z-50 w-full border-b border-slate-200/60 bg-white/80 backdrop-blur-xl">
+      <Container className="flex h-20 items-center justify-between">
 
-      <div className="hidden items-center gap-8 text-sm font-medium text-slate-800 md:flex">
-        <a>How it works</a>
-        <a>Find designers</a>
-        <a>About us</a>
-        <a>Log in</a>
+        <Logo />
 
-        <button className="rounded-xl bg-blue-600 px-5 py-3 font-semibold text-white shadow-lg shadow-blue-600/20">
-          Sign up
+        <nav className="hidden lg:flex items-center gap-12 text-[15px] font-medium text-slate-700">
+          <a href="#" className="transition hover:text-blue-600">
+            How it works
+          </a>
+
+          <a href="#" className="transition hover:text-blue-600">
+            Find Creatives
+          </a>
+
+          <a href="#" className="transition hover:text-blue-600">
+            About
+          </a>
+        </nav>
+
+        <button className="text-[15px] font-medium text-slate-700 transition hover:text-blue-600">
+          Log in
         </button>
-      </div>
-    </nav>
+
+      </Container>
+    </header>
   );
 }
